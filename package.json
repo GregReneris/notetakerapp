@@ -4,12 +4,12 @@
   "description": "## Description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GregReneris/notetakerapp.git",
-    "start": "node index.js"
+    "url": "git+https://github.com/GregReneris/notetakerapp.git"
   },
   "keywords": [],
   "author": "",

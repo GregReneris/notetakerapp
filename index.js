@@ -57,6 +57,13 @@ app.delete('/api/notes/:id',(req,res)=>{
 
 
 
+app.get('/',(req,res)=>{
+    // will serve tables page
+    res.sendFile(path.join(__dirname, "Develop/public/index.html"));
+})
+
+
+
 app.get('*',(req,res)=>{
     // will serve tables page
     res.sendFile(path.join(__dirname, "Develop/public/index.html"));
