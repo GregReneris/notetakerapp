@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GregReneris/notetakerapp.git",
-    "start": "node serverindex.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
