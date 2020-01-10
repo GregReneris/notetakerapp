@@ -1,0 +1,24 @@
+{
+  "name": "notetakerapp",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregReneris/notetakerapp.git",
+    "start": "node serverindex.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregReneris/notetakerapp/issues"
+  },
+  "homepage": "https://github.com/GregReneris/notetakerapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
